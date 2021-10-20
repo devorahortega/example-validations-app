@@ -1,0 +1,17 @@
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "last_name": "Fredrics",
+  "email": "ginamason@email.com"
+}
+
+###
+PATCH http://localhost:3000/users/13.json
+Content-Type: application/json
+
+{
+  "first_name": "Fred",
+  "last_name": "Mason",
+  "email": "fredmason@email.com"
+}
